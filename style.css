@@ -13,7 +13,7 @@ body {
 .container {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px #870707bf;
   padding: 20px;
   text-align: center;
   max-width: 400px;
@@ -28,13 +28,13 @@ h2 {
 input[type="text"] {
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #178da8;
   border-radius: 4px;
   width: calc(100% - 20px);
 }
 
 button {
-  background-color: #007bff;
+  background-color: #28a864;
   color: white;
   border: none;
   border-radius: 4px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #007FFF;
 }
 
 #gameBoard {
@@ -60,7 +60,7 @@ button:hover {
 .container {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px #0000001a;
   padding: 20px;
   text-align: center;
   max-width: 400px;
@@ -82,14 +82,14 @@ button:hover {
 }
 
 .cell {
-  background-color: #fff;
-  border: 2px solid #007bff;
+  background-color: #fbfbfa;
+  border: 2px solid #5EFB6E;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  color: #333;
+  color: #000000;
   width: 120px; 
   height: 120px;
   cursor: pointer;
@@ -103,7 +103,7 @@ button:hover {
 #playerTurn {
   margin-bottom: 20px;
   font-size: 1.2em;
-  color: #007bff;
+  color: #808080;
 }
 
 .hide {
@@ -114,7 +114,7 @@ button:hover {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(109, 202, 52, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
